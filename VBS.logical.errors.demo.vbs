@@ -1,3 +1,5 @@
+'(C) Copyright 2009 hm
+
 Option Explicit
 
 msgbox "Although func1() returns """ + Cstr(func1()) + """, you will see func(2) run as VBS does not ""short circuit"" boolean operators in conditionals."
