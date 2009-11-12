@@ -1,4 +1,6 @@
 '(C) Copyright 2009 hm
+' no warranty at all
+' this is just a demo
 
 Option Explicit
 
