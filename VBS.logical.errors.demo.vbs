@@ -11,10 +11,12 @@ end if
 
 function func2()
 	'nothing
+	msgbox "this is a func2() popup"
 end function
 
 function func1()
-	'nothing
+	'return false unconditionally
+	func1 = false
 end function
 
 Wscript.Quit()
